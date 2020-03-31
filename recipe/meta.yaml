@@ -1,6 +1,6 @@
-{% set name = 'FIt-SNE' %}
-{% set version = '1.1.0' %}
-{% set sha256 = '9a985fe1bb1e9c17fff0e81968e794eb834ccf002695d02294f2ff9ac564b873' %}
+{% set name = "FIt-SNE" %}
+{% set version = "1.2.0" %}
+{% set sha256 = "1b6a95c95660a977244e00528083d3a6f84a921ee597c6cab71f0fc6f39f72d6" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
 
 build:
   number: 0
-  skip: True  # [win]
+  skip: true  # [win]
 
 requirements:
   build:
@@ -34,3 +34,4 @@ about:
 extra:
   recipe-maintainers:
     - raivivek
+    - dkobak
