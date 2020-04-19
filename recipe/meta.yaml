@@ -1,6 +1,6 @@
 {% set name = "FIt-SNE" %}
-{% set version = "1.2.0" %}
-{% set sha256 = "1b6a95c95660a977244e00528083d3a6f84a921ee597c6cab71f0fc6f39f72d6" %}
+{% set version = "1.2.1" %}
+{% set sha256 = "9a207e5796d7a8ab38d532abf079bf0a4551cec09570656a86c7375227f5de3c" %}
 
 package:
   name: {{ name|lower }}
